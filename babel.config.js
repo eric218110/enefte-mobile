@@ -7,7 +7,9 @@ module.exports = {
         root: ['./src'],
         extensions: ['.ts', '.tsx', '.jsx', '.js', '.json'],
         alias: {
-          '@main': './src/main'
+          '@main': './src/main',
+          '@presentation': './src/presentation',
+          '@utils': './src/utils'
         }
       }
     ]
