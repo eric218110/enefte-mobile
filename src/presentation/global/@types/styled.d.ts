@@ -1,8 +1,8 @@
 import 'styled-components'
 
 type Color = {
-  primaryColor: string
-  secondaryColor: string
+  primary: string
+  secondary: string
 }
 
 type Background = {

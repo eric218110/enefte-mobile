@@ -2,8 +2,8 @@ import { DefaultTheme } from 'styled-components/native'
 
 export const themeDark: DefaultTheme = {
   color: {
-    primaryColor: '#1D9BF0',
-    secondaryColor: '#253341'
+    primary: '#1D9BF0',
+    secondary: '#253341'
   },
   background: {
     dark: '#15202B',
@@ -19,8 +19,8 @@ export const themeDark: DefaultTheme = {
 
 export const themeLight: DefaultTheme = {
   color: {
-    primaryColor: '#1D9BF0',
-    secondaryColor: '#253341'
+    primary: '#1D9BF0',
+    secondary: '#253341'
   },
   background: {
     dark: '#FFFFFF',
