@@ -23,8 +23,8 @@
       "@presentation/*": [
         "./src/presentation/*"
       ],
-      "@utils/*": [
-        "./src/utils/*"
+      "@test/*": [
+        "__test__/*"
       ]
     }
   },
