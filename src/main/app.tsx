@@ -1,4 +1,4 @@
-import { MainProvider } from '@presentation/provider/main'
+import { MainRouter } from '@presentation/router/main'
 import React from 'react'
 
-export const Main = () => <MainProvider />
+export const Main = () => <MainRouter />

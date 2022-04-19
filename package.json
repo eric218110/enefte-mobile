@@ -12,7 +12,8 @@
     "test:unit:ci": "jest",
     "prepare": "husky install",
     "lint-prettier": "prettier --write .",
-    "lint": "eslint src --fix --max-warnings=0"
+    "lint": "eslint src --fix --max-warnings=0",
+    "lint-staged": "lint-staged"
   },
   "dependencies": {
     "react": "17.0.2",
