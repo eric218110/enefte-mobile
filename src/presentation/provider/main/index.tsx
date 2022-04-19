@@ -1,5 +1,5 @@
-import { Screen } from '@presentation/atomic/screens'
 import { themeDark, themeLight } from '@presentation/global/theme'
+import { Screen } from '@presentation/screens'
 import React from 'react'
 import { useColorScheme } from 'react-native'
 import { ThemeProvider } from 'styled-components'
