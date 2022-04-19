@@ -5,16 +5,16 @@ import React from 'react'
 
 describe('<MainProvider />', () => {
   const makeSut = () => {
-    const { Component: sut } = ThemeProviderUtils({
+    const { Component: Sut } = ThemeProviderUtils({
       children: <MainProvider />
     })
-    return { sut }
+    return { Sut }
   }
 
   it('should MainProvider to be render', () => {
-    const { sut } = makeSut()
+    const { Sut } = makeSut()
 
-    const { toJSON } = render(sut)
+    const { toJSON } = render(Sut)
 
     console.log(toJSON())
   })

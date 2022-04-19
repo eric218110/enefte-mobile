@@ -2,5 +2,9 @@
   "src/**/*.{ts,tsx}": [
     "yarn lint",
     "yarn test"
+  ],
+  "__test__/**/*.{ts,tsx}": [
+    "yarn lint",
+    "yarn test"
   ]
 }
