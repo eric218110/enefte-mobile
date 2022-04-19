@@ -3,7 +3,5 @@
     "yarn lint",
     "yarn test"
   ],
-  "*.{md,mdx,yaml,yml,json,js,ts,tsx}": [
-    "lint-prettier"
-  ]
+  "*": "prettier --ignore-unknown --write"
 }
