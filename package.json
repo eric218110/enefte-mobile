@@ -11,7 +11,7 @@
     "test:watch:verbose": "jest --watch --collectCoverage=false",
     "test:unit:ci": "jest",
     "prepare": "husky install",
-    "lint-prettier": "prettier --write .",
+    "lint-prettier": "prettier --write",
     "lint": "eslint src --fix --max-warnings=0",
     "lint-staged": "lint-staged"
   },
