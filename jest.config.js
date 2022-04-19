@@ -2,7 +2,6 @@ module.exports = {
   preset: 'react-native',
   testEnvironment: 'jsdom',
   testMatch: ['**/__tests__/**/*.ts?(x)', '**/?(*.)+(spec|test).ts?(x)'],
-
   testPathIgnorePatterns: [
     '/node_modules/',
     'android',
